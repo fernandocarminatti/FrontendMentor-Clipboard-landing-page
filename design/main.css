@@ -1,0 +1,171 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+    font-family: 'Bai Jamjuree', sans-serif;
+    background: url(../images/bg-header-desktop.png) no-repeat;
+    background-size: contain;
+}
+
+h1,
+h2,
+h3{
+    color: hsl(210, 10%, 33%);
+}
+
+p{  
+    padding: 0;
+    margin: 0;
+    color: hsl(201, 11%, 66%);
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.mainbox {
+    margin: 0 auto;
+    width: 1440px;
+    height: 3808px;
+}
+
+.wrap {
+    max-width: 1440px;
+    max-height: 3808px;
+    margin: 0 auto;
+    border: 2px solid tomato;
+}
+
+/* div that align all readable content in the middle of the screen */
+
+.content-align {
+    width: 650px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* All content title and paragraphs alignment section */
+
+.content h2 {
+    margin: 120px 0 0 0;
+}
+
+
+/* Copyright symbol */
+
+.copybox {
+    display: block;
+    position: relative;
+    margin: 120px auto;
+}
+
+.copysymbol {
+    color: hsl(171, 66%, 44%);
+    font-size: 12em;
+}
+
+/* button container and related settings */
+
+.container-btn {
+    margin: 50px 0;
+}
+
+/* button container for iOs system, made this way for future changes */
+
+.container-btn [class="iOs"] {
+    margin: 0 5px;
+    padding: 15px 35px;
+    background:hsl(171, 66%, 44%);
+    border-radius: 30px;
+    text-decoration: none;
+    text-indent: none;
+    color: white;
+}
+
+/* button container for Mac system, made this way for future changes */
+
+.container-btn [class="Mac"] {
+    margin: 0 5px;
+    padding: 15px 35px;
+    background: hsl(233, 100%, 69%);
+    border-radius: 30px;
+    text-decoration: none;
+    text-indent: none;
+    color: white;
+}
+
+/* container with text + image side by side*/
+
+.container-flex {
+    width: 100%;
+    height: 700px;
+    margin: 110px 0 0 0;
+}
+
+/* flexbox with content */
+
+.content-flex {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+/* div with no content, with 50% of the width to be side by side with the aside text */
+
+.wrapflexleft {
+    width: 60%;
+}
+
+.wrapflexright {
+    width: 40%;
+    padding: 30px 0 0 0;
+    margin: 0 50px 0 0;
+}
+
+/* image div */
+
+.img-computer {
+    position: absolute;
+    width: 800px;
+    height: 560px;
+    right: 48%;
+}
+
+/* image itself */
+
+.img-computer img {
+    width: 100%;
+    height: 100%;
+}
+
+/* Aside content */
+
+.content-aside {
+    margin: 0 30px;
+    padding: 0px 0px;
+    width: 70%;
+}
+
+/* Generic Aside h3 and p */
+
+.content-aside h3 {
+    width: 100%;
+    margin: 25px 0 10px 0;
+}
+
+.content-aside p {
+    width: 100%;
+    margin: 0 0 50px 0;
+    line-height: 30px;
+}
+
+
